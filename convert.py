@@ -52,17 +52,17 @@ def main():
         convert = sys.argv[1]
         number = sys.argv[2]
         if convert == "-db":
-            print(str(decToBinary(number)) + "\n")
+            print("\n" + str(decToBinary(number)) + "\n")
         elif convert == "-dh":
-            print(str(decToHex(number)) + "\n")
+            print("\n" + str(decToHex(number)) + "\n")
         elif convert == "-bd":
-            print(str(binToDecimal(number)) + "\n")
+            print("\n" + str(binToDecimal(number)) + "\n")
         elif convert == "-bh":
-            print(str(binToHex(number)) + "\n")
+            print("\n" + str(binToHex(number)) + "\n")
         elif convert == "-hd":
-            print(str(hexToDec(number)) + "\n")
+            print("\n" + str(hexToDec(number)) + "\n")
         elif convert == "-hb":
-            print(str(hexToBin(number)) + "\n")
+            print("\n" + str(hexToBin(number)) + "\n")
         else:
             print("\nError: Conversion not supported\n")
 
