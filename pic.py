@@ -55,8 +55,7 @@ def main():
 ╚═╝     ╚═╝ ╚═════╝╚═╝╚═╝        ╚═╝   
 
 Python Integer Converter
-_______________________________________
-                                       
+_______________________________________                             
 ''')
     helpText = "\nError: Please enter a number and what to convert it to\n"
     if len(sys.argv) < 3:
@@ -65,17 +64,17 @@ _______________________________________
         convert = sys.argv[1]
         number = sys.argv[2]
         if convert == "-db":
-            print("\n" + str(decToBinary(number)) + "\n")
+            print(str(decToBinary(number)) + "\n")
         elif convert == "-dh":
-            print("\n" + str(decToHex(number)) + "\n")
+            print(str(decToHex(number)) + "\n")
         elif convert == "-bd":
-            print("\n" + str(binToDecimal(number)) + "\n")
+            print(str(binToDecimal(number)) + "\n")
         elif convert == "-bh":
-            print("\n" + str(binToHex(number)) + "\n")
+            print(str(binToHex(number)) + "\n")
         elif convert == "-hd":
-            print("\n" + str(hexToDec(number)) + "\n")
+            print(str(hexToDec(number)) + "\n")
         elif convert == "-hb":
-            print("\n" + str(hexToBin(number)) + "\n")
+            print(str(hexToBin(number)) + "\n")
         else:
             print("\nError: Conversion not supported\n")
 
