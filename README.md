@@ -1,4 +1,4 @@
-# convert.py
+# pic.py: Python Integer Converter
 A simple python script that converts decimal, binary, and hex interchangeably 
 ## Usage
 Decimal to Binary: `python convert.py -db <number>`
