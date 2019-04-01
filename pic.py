@@ -45,6 +45,19 @@ def hexToBin(num):
         exit()
     
 def main():
+    print('''
+
+██████╗ ██╗ ██████╗   ██████╗ ██╗   ██╗
+██╔══██╗██║██╔════╝   ██╔══██╗╚██╗ ██╔╝
+██████╔╝██║██║        ██████╔╝ ╚████╔╝ 
+██╔═══╝ ██║██║        ██╔═══╝   ╚██╔╝  
+██║     ██║╚██████╗██╗██║        ██║   
+╚═╝     ╚═╝ ╚═════╝╚═╝╚═╝        ╚═╝   
+
+Python Integer Converter
+_______________________________________
+                                       
+''')
     helpText = "\nError: Please enter a number and what to convert it to\n"
     if len(sys.argv) < 3:
         print(helpText)
