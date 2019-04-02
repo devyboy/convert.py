@@ -13,4 +13,4 @@ Hex to Decimal: `python convert.py -hd <number>`
 
 Hex to Binary: `python convert.py -hb <number>`
 ## Why?
-Why not?
+Why not
