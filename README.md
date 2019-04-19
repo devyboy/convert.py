@@ -1,16 +1,16 @@
-# pic.py: Python Integer Converter
+# int.py: Implicit Number Transcoder
 A simple python script that converts decimal, binary, and hex interchangeably 
 ## Usage
-Decimal to Binary: `python convert.py -db <number>`
+Decimal to Binary: `python int.py -db <number>`
 
-Decimal to Hex: `python convert.py -dh <number>`
+Decimal to Hex: `python int.py -dh <number>`
 
-Binary to Decimal: `python convert.py -bd <number>`
+Binary to Decimal: `python int.py -bd <number>`
 
-Binary to Hex: `python convert.py -bh <number>`
+Binary to Hex: `python int.py -bh <number>`
 
-Hex to Decimal: `python convert.py -hd <number>`
+Hex to Decimal: `python int.py -hd <number>`
 
-Hex to Binary: `python convert.py -hb <number>`
+Hex to Binary: `python int.py -hb <number>`
 ## Why?
 Why not
